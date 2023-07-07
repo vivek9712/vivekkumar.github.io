@@ -1,0 +1,217 @@
+body {
+  background-image: url(https://media.istockphoto.com/id/865087924/photo/online-shopping-concept-nackground-mobile-phone-or-smartphone-with-cart-and-boxes-and-bag.jpg?s=170667a&w=0&k=20&c=KeGdguAx4XTzZas2YdiFu0zNd2G8jZ8cZeQhwejfZ_s=);
+    background-size: cover;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 8px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%;
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%;
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%;
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+     margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+
+  /*--- footer ---*/
+footer {
+  width: 100%;
+  height: 500px;
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-main {
+  width: 1070px;
+}
+.footer-detail {
+  font-size: 10px;
+  color: #95a5a6;
+  padding: 20px 0;
+  border-bottom: 1px solid #bdc3c7;
+}
+.footer-detail a {
+  color: #2c3e50;
+}
+.footer-detail a:hover {
+  text-decoration: underline;
+}
+.footer-welcome {
+  display: flex;
+  margin: 20px 0;
+  font-size: 20px;
+  color: #34495e;
+}
+.footer-welcome i {
+  margin-right: 10px;
+}
+.footer-ul {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-ul ul {
+  list-style: none;
+}
+.footer-ul ul li {
+  margin: 7px 0;
+}
+.footer-ul ul li h4 {
+  color: #34495e;
+  font-size: 20px;
+}
+.footer-ul ul li a {
+  color: #7f8c8d;
+  font-size: 15px;
+}
+.footer-ul ul li a:hover {
+  text-decoration: underline; 
+}
+#mt {
+  padding-top: 30px;
+}
+.footer-contact {
+  border-bottom: 1px solid #eff2f5;
+  padding: 12px 0;
+  margin: 10px 0;
+  color: #7f8c8d;
+  font-size: 10px;
+}
+.footer-contact a {
+  color: #3498db;
+}
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+.footer-copyright {
+  background-color: #39ed15;
+  color: #e3efef;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-copyright ul {
+  display: flex;
+  list-style: none;
+  width: auto;
+}
+.footer-copyright ul li {
+  margin: 0 10px;
+}
+.footer-copyright ul li a {
+  color: #f6fafb;
+}
+.footer-copyright ul li a:hover {
+  text-decoration: underline; 
+}
+.vr {
+  height: 15px;
+  width: 1px;
+  background: #f4f7f8;
+}
+.footer-lang {
+  display: flex;
+}
+.footer-lang p {
+  margin: 0 10px;
+}
+.circle {
+  width: 15px;
+  height: 15px;
+}
+.circle img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-radius: 50%;
+}

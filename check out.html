@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Responsive Checkout Form</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./check out.css">
+<link rel="stylesheet" href="./home page.css">
+<!-- <link rel="stylesheet" href="./iphone page.css"> -->
+</head>
+<body>
+    <div class="width-100">
+        <div class="container">
+          <ul class="main-menu">
+            <li>
+              <a href="http://127.0.0.1:5500/online%20shooping/home%20page.html">Home</a>
+            </li>
+            <li>
+              <a href="http://127.0.0.1:5500/online%20shooping/iphone%20page.html">iPhone</a>
+            </li>
+            <li>
+              <a href="http://127.0.0.1:5500/online%20shooping/Samsung%20page.html">Samsung</a>
+            </li>
+            <li>
+              <a href="http://127.0.0.1:5500/online%20shooping/nokie.html">Nokia</a>
+            </li>
+            <li>
+              <a href="#">Motorola</a>
+            </li>
+            <li>
+              <a href="#">iPad</a>
+            </li>
+            <li>
+              <a href="#">Accessories</a>
+            </li>
+            <li>
+              <a href="#">Service</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+<h2>Checkout Form</h2>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="">
+
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3><br>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Faraz">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="codewithfaraz@example.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="Mira Bhayandar Road">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="Mumbai">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="MH">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="400001">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3><br>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="Faraz">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="December">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2027">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="123">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+      </form>
+    </div>
+  </div>
+  <br>
+  <div class="col-25">
+    <div class="container">
+      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4><br>
+      <p><a href="#">Item 1</a> <span class="price">$105</span></p><br>
+      <p><a href="#">Item 2</a> <span class="price">$95</span></p><br>
+      <p><a href="#">Item 3</a> <span class="price">$100</span></p><br>
+      <p><a href="#">Item 4</a> <span class="price">$50</span></p><br>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>$350</b></span></p>
+    </div>
+  </div>
+</div><br>
+<footer>
+    <div class="footer-main">
+        <div class="footer-detail">
+            <p>Prices are inclusive of VAT. Free delivery for all orders.</p>
+            <p>*Total order value must be less than 30,000 THB. Admin fee may be charged by bank/processing entity
+                in addition to order value.</p>
+            <p>**For approved customers only. Subject to approval. For more information, see <a
+                    href="#">http://www.apple.com/th-en/help/payments.</a></p>
+        </div> <!-- end footer detail -->
+
+        <div class="footer-welcome">
+            <!-- <i class="fab fa-apple"></i>
+            <i class="fas fa-chevron-right"></i> -->
+            <p>Welcome to the Vivek Apple Store</p>
+        </div> <!-- end footer-welcome -->
+
+        <div class="footer-ul">
+            <ul>
+                <li>
+                    <h4>Shop and Learn</h4>
+                </li>
+                <li><a href="http://127.0.0.1:5500/online%20shooping/home%20page.html">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="http://127.0.0.1:5500/online%20shooping/cart.html">Cart</a></li>
+                <li><a href="http://127.0.0.1:5500/online%20shooping/check%20out.html">Checkout</a></li>
+            </ul>
+
+            <ul>
+                <li>
+                    <h4>Apple Store</h4>
+                </li>
+                <li><a href="#">Apple Store App</a></li>
+                <li><a href="#">Financing</a></li>
+                <li><a href="#">Order Status</a></li>
+                <li><a href="#">Shopping Help</a></li>
+            </ul>
+
+            <ul>
+                <li>
+                    <h4>For Education</h4>
+                </li>
+                <li><a href="#">Apple and Education</a></li>
+                <li><a href="#">Shop for College</a></li>
+                <li id="mt">
+                    <h4>For Business</h4>
+                </li>
+                <li><a href="#">Apple and Business</a></li>
+                <li><a href="#">shop for Business</a></li>
+            </ul>
+
+            <ul>
+                <li>
+                    <h4>Account</h4>
+                </li>
+                <li><a href="#">My Profile</a></li>
+                <li><a href="http://127.0.0.1:5500/online%20shooping/login.html">Login</a></li>
+                <li><a href="http://127.0.0.1:5500/online%20shooping/forgot%20password.html">Change Password</a></li>
+                <li><a href="#">Order History</a></li>
+                <li><a href="#">My Whislist</a></li>
+                <li><a href="#">My Cashback</a></li>
+                <li id="mt">
+                    <h4>Apple Values</h4>
+                </li>
+                <li><a href="#">Accessibility</a></li>
+                <li><a href="#">Environment</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Supplier Responsibility</a></li>
+            </ul>
+
+            <ul>
+                <li>
+                    <h4>About Apple</h4>
+                </li>
+                <li><a href="#">Newsroom</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact Apple</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact">
+            <p>More ways to shop: visit an <a href="#">Vivek Apple Store, </a>Call 788-894-4066, or <a href="#">find
+                    a seller</a></p>
+        </div>
+        <div class="footer-copyright">
+            <p>Copyright © 2019 Vivek. All rights reserved.</p>
+
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <div class="vr"></div>
+                <li><a href="#">Terms of Use</a></li>
+                <div class="vr"></div>
+                <li><a href="#">Sales and Refunds</a></li>
+                <div class="vr"></div>
+                <li><a href="#">Legal</a></li>
+                <div class="vr"></div>
+                <li><a href="#">Sitemap</a></li>
+            </ul>
+
+            <div class="footer-lang">
+                <div class="circle">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/255px-Flag_of_India.svg.png">
+                </div>
+                <p>india</p>
+                <div class="vr"></div>
+                <p>Vivek</p>
+            </div>
+        </div>
+
+    </div>
+</footer>
+</body>
+</html>
